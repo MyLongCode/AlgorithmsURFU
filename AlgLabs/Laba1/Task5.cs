@@ -1,5 +1,5 @@
 ﻿using System;
-
+namespace AlgLabs.Laba1;
 public class Task5
 {
     // (*   *)

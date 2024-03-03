@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System;
-
+namespace AlgLabs.Laba1;
 public class Task1
 {
     public static void Solution()

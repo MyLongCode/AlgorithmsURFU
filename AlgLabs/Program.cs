@@ -1,9 +1,9 @@
 ﻿using System;
-using AlgLabs.Laba1;
+using AlgLabs.Laba2;
 public class Labs
 {
     public static void Main()
     {
-        Task6.Solution();
+        Task3.Solution();
     }
 }
