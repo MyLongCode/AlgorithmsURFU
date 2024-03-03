@@ -52,7 +52,7 @@ public class Task5
 		}
 		return new int[4] {count1, count2,count3,count4 };
 	}
-	public static void Task5Solution()
+	public static void Solution()
 	{
 		string test = "program test;\r\n(*just for {} testing *)\r\nvar\r\n(* variables\r\nnote that\r\n// here is not comment\r\nand (* here is\r\nnot a begin of\r\nanother comment\r\n*)\r\nx: integer; (* *)\r\nbegin\r\nwrite(‘(*is not comment//’);\r\nwrite(‘ and (*here*) ‘\r\n,x // y);\r\nEnd. It is comment \n";
 		Console.WriteLine(searchComments(test)[0]);

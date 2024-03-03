@@ -3,7 +3,7 @@ using System;
 
 public class Task1
 {
-    public static void Task1Solution()
+    public static void Solution()
     {
         string str = "1 2 6 8 7 3 0 4 1 6 2 3 9 0";
         var array = str.Split();

@@ -2,7 +2,7 @@
 
 public class Task2
 {
-    public static void Task2Solution()
+    public static void Solution()
     {
         string input = Console.ReadLine();
         int len1 = int.Parse(input.Split()[0]);
