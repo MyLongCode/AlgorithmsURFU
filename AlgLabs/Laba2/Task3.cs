@@ -41,7 +41,6 @@ namespace AlgLabs.Laba2
         {
             return (b.X - a.X) * (c.Y - b.Y) - (b.Y - a.Y) * (c.X - b.X);
         }
-
         public static List<Point> MinPerimeter(List<Point> points)
         {
             List<Point> list = new List<Point>();
@@ -94,7 +93,8 @@ namespace AlgLabs.Laba2
                 result += points[i] + points[i + 1];
             }
             result += points[0] + points.Last();
-            Console.WriteLine(result);
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
+            Console.WriteLine(Math.Round(result, 1));
         }
     }
 }
