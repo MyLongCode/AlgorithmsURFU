@@ -34,9 +34,6 @@ namespace AlgLabs.Laba2
 {
     public class Task3
     {
-        /// <summary>
-        /// Функция, определяющая с какой стороны находятся точки относительно друг друга
-        /// </summary>
         public static double Rotate(Point a, Point b, Point c)
         {
             return (b.X - a.X) * (c.Y - b.Y) - (b.Y - a.Y) * (c.X - b.X);
