@@ -47,7 +47,7 @@ namespace AlgLabs.Laba2
             Point left = new Point()
             {
                 X = int.MaxValue
-            }; 
+            };
             foreach (var p in points)
                 if (p.X < left.X) left = p;
             list.Add(left);
