@@ -23,6 +23,7 @@ namespace AlgLabs.Laba2
 
         public static bool CheckMinusOneGuard(List<Pair> guards, int deletedItemId)
         {
+            if (guards.Count < 2) return false;
             var list = new List<Pair>(guards);
             list.RemoveAt(deletedItemId);
             var flag = false;
