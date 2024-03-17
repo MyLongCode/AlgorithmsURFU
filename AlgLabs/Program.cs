@@ -4,6 +4,6 @@ public class Labs
 {
     public static void Main()
     {
-        Task15.Solution();
+        Task17.Solution();
     }
 }
