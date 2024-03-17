@@ -41,7 +41,11 @@ namespace AlgLabs.Laba3
                 for (var j = 0; j < m; j++)
                     ints[i][j] = int.Parse(line[j]);
             }
-            Console.WriteLine(ints);
+            int ans = 0;
+            for (var i = 0; i < n; i++)
+                for (var j = i + 1; j < n; j++)
+                    ans = Math.Max(ans, IntersectionTwoArrays(ints[i], ints[j]));
+            Console.WriteLine(ans);
         }
     }
 }
