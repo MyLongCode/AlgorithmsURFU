@@ -34,10 +34,11 @@ namespace ForAlgorithms.Structures
 
         private Node Insert(Node x, int key)
         {
+            if (root == null) root = new Node(key);
             if (x == null) x = new Node(key);
             if (key < x.key) x.left = Insert(x.left, key);
             else if (key > x.key) x.right = Insert(x.right, key);
-            return root;
+            return x;
         }
         public void Find(int key)
         {
@@ -53,7 +54,8 @@ namespace ForAlgorithms.Structures
 
         public void Traverse(Node root)
         {
-            if (root.left == null && root.right == null) Console.WriteLine(root.key);
+            Console.WriteLine(root.key);
+            if (root.left == null && root.right == null) return;
             if (root.left != null) Traverse(root.left);
             if (root.right != null) Traverse(root.right);
         }
