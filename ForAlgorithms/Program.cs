@@ -1,4 +1,6 @@
 ﻿using ForAlgorithms.Sorts;
+using ForAlgorithms.Structures;
+using System.Buffers.Binary;
 
 namespace Algorithms
 {
@@ -6,13 +8,14 @@ namespace Algorithms
     {
         public static void Main()
         {
-            var arr = new int[10]
-            {
-                10,2,129,4,9,324,7,8,3910,10
-            };
-            arr = Sorts.SelectionSort(arr);
-            foreach (int i in arr)
-                Console.WriteLine(i);
+            BinaryTree tree = new BinaryTree();
+            tree.Insert(5);
+            tree.Insert(1);
+            tree.Insert(2);
+            tree.Insert(4);
+            tree.Insert(7);
+            tree.Insert(10);
+            tree.Traverse(tree.root);
         }
     }
         
