@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-public class Pair
+namespace AlgLabs.Laba3
+{
+    public class Pair
 {
     public int first;
     public int second;
@@ -16,8 +17,7 @@ public class Pair
     }
 }
 
-namespace AlgLabs.Laba2
-{
+
     public class Task8
     {
 
