@@ -5,7 +5,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <StartupObject>LeetCodeTasks.Main1</StartupObject>
+    <StartupObject></StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="27 Remove Element.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="27 Remove Element.cs" />
+  </ItemGroup>
 
 </Project>
