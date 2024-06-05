@@ -10,18 +10,16 @@ namespace LeetCodeTasks
     {
 		public static int RemoveElement(int[] nums, int val)
 		{
-			var ans = 0;
-			for(var i = 0; i < nums.Length; i++)
+			var index = 0;
+			for (var i = 0; i < nums.Length; i++)
 			{
-				if (nums[i] == val)
+				if (nums[i] != val)
 				{
-					ans++;
-					nums[i] = -1;
+					nums[index] = nums[i];
+					index++;
 				}
 			}
-			Array.Sort(nums);
-			nums.Reverse();
-			return ans;
+			return index;
 		}
 
 		public static void Main()
