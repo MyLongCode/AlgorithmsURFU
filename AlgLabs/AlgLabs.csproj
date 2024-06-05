@@ -8,7 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="lab8\.idea\misc.xml" />
+    <Content Include="lab8\.idea\modules.xml" />
+    <Content Include="lab8\.idea\workspace.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Laba7\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="lab8\.idea\.gitignore" />
   </ItemGroup>
 
 </Project>
