@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <StartupObject>LeetCodeTasks.Remove_Duplicates_from_Sorted_Array_II</StartupObject>
+    <StartupObject>LeetCodeTasks.Majority_Element</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
