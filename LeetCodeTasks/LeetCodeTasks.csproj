@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <StartupObject>LeetCodeTasks.Main1</StartupObject>
+    <StartupObject>LeetCodeTasks.Hand_of_Straights</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
