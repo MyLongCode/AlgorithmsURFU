@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <StartupObject>LeetCodeTasks.Majority_Element</StartupObject>
+    <StartupObject>LeetCodeTasks.Main1</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
