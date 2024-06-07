@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <StartupObject>LeetCodeTasks.Reverse_String</StartupObject>
+    <StartupObject>LeetCodeTasks._189_Rotate_Array</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
