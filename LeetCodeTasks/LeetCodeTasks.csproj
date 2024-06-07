@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <StartupObject>LeetCodeTasks.Hand_of_Straights</StartupObject>
+    <StartupObject>LeetCodeTasks.Reverse_String</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
