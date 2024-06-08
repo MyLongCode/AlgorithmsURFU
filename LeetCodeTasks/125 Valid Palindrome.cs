@@ -8,9 +8,9 @@ namespace LeetCodeTasks
 {
     public class _125_Valid_Palindrome
     {
-        public bool IsPalindrome(string s)
+        public static bool IsPalindrome(string s)
         {
-
+            return false;
         }
         public static void Main()
         {
