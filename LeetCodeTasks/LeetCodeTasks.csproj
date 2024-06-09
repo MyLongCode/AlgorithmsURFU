@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <StartupObject>LeetCodeTasks._974_Subarray_Sums_Divisible_by_K</StartupObject>
+    <StartupObject>LeetCodeTasks._125_Valid_Palindrome</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

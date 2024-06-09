@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace LeetCodeTasks
@@ -10,11 +11,24 @@ namespace LeetCodeTasks
     {
         public static bool IsPalindrome(string s)
         {
-            return false;
+            s = s.ToLower();
+            s = new string(s.Where(c => char.IsLetterOrDigit(c)).ToArray());
+            int left = 0, right = s.Length - 1;
+            while(left < right)
+            {
+                if (s[left] == s[right])
+                {
+                    left++;
+                    right--;
+                }
+                else return false;
+            }
+            return true;
         }
         public static void Main()
         {
-
+            var b = IsPalindrome("A man, a plan, a canal: Panama");
+            Console.WriteLine(b);
         }
     }
 }
