@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <StartupObject>LeetCodeTasks._209_Minimum_Size_Subarray_Sum</StartupObject>
+    <StartupObject>LeetCodeTasks._75_Sort_Colors</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
