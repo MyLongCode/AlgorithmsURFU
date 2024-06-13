@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <StartupObject>LeetCodeTasks._75_Sort_Colors</StartupObject>
+    <StartupObject>LeetCodeTasks._36_Valid_Sudoku</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
