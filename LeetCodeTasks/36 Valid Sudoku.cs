@@ -53,7 +53,6 @@ namespace LeetCodeTasks
                  new string[] {".", ".", ".", "4", "1", "9", ".", ".", "5" },
                  new string[] {".", ".", ".", ".", "8", ".", ".", "7", "9" }
             };
-            IsValidSudoku(input);
         }
     }
 }
