@@ -21,6 +21,7 @@ namespace LeetCodeTasks
                 }
 
             }
+            GC.Collect();
             return ans;
         }
 
