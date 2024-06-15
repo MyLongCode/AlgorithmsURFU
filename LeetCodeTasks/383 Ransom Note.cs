@@ -13,7 +13,7 @@ namespace LeetCodeTasks
         {
             Hashtable hashtable = new Hashtable();
             foreach (var item in magazine)
-            {
+            { 
                 if (!hashtable.ContainsKey(item)) hashtable.Add(item, 1);
                 else hashtable[item] = (int)hashtable[item] + 1;
             }
