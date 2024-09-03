@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <StartupObject>LeetCodeTasks._36_Valid_Sudoku</StartupObject>
+    <StartupObject>LeetCodeTasks._1122_Relative_Sort_Array</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
