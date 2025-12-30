@@ -10,7 +10,7 @@ namespace LeetCodeTasks
     {
         public bool IsPalindrome(int x)
         {
-
+            return false;
         }
     }
 }
