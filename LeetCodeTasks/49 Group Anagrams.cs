@@ -19,11 +19,7 @@ namespace LeetCodeTasks
                 if (!dict.ContainsKey(sortStr)) dict[sortStr] = new List<string> { str};
                 else dict[sortStr].Add(str);
             }
-
-            var ans = new List<IList<string>>();
-            foreach(var list in dict.Values)
-                ans.Add(list);
-            return ans;
+            return new List<IList<string>>(dict.Values);
         }
 
         public static void Main()

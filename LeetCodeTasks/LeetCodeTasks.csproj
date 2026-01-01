@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <StartupObject>LeetCodeTasks._1_Two_Sum</StartupObject>
+    <StartupObject>LeetCodeTasks._347_Top_K_Frequent_Elements</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
