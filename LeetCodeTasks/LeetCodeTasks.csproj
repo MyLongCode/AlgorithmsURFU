@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <StartupObject>LeetCodeTasks._347_Top_K_Frequent_Elements</StartupObject>
+    <StartupObject>LeetCodeTasks._21_Merge_Two_Sorted_Lists</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
