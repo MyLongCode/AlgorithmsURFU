@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <StartupObject>LeetCodeTasks._21_Merge_Two_Sorted_Lists</StartupObject>
+    <StartupObject>LeetCodeTasks._704_Binary_Search</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
